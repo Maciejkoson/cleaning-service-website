@@ -22,6 +22,13 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
+
+<style>
+    body
+    {
+        padding-top: 40px;
+    }
+</style>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
     <div class="container">
@@ -58,15 +65,66 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lectus ante, at gravida ante ultricies non. Donec enim elit, malesuada id purus non, mattis consectetur velit. Maecenas mattis dolor non tempor ultricies. Sed semper dui at erat pretium, nec iaculis libero porttitor. Fusce ac ultricies justo.</p>
 
         <div class="btn-group">
-            <a href="" class="btn btn-lg btn-info">Our job</a>
+            <a href="" class="btn btn-lg btn-default">Our job</a>
             <a href="" class="btn btn-lg btn-info">Info</a>
-            <a href="" class="btn btn-lg btn-info">Our people</a>
+            <a href="" class="btn btn-lg btn-warning">Our people</a>
         </div>
     </div> <!-- end of container -->
 </div>
 <!-- End jumbotron -->
 
+<div class="container">
+    <section>
+        <div class="page-header" id="feedback">
+            <h2>Feedback.<small>Check our costumers feedbacks!</small></h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lectus ante, at gravida ante ultricies non. Donec enim elit, malesuada id purus non, mattis consectetur velit. Maecenas mattis dolor non tempor ultricies. Sed semper dui at erat pretium, nec iaculis libero porttitor. Fusce ac ultricies justo.
+                    </p>
+                    <footer>Hans Solo</footer>
+                </blockquote>
+            </div>
 
+            <div class="col-lg-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lectus ante, at gravida ante ultricies non. Donec enim elit, malesuada id purus non, mattis consectetur velit. Maecenas mattis dolor non tempor ultricies. Sed semper dui at erat pretium, nec iaculis libero porttitor. Fusce ac ultricies justo.
+                    </p>
+                    <footer>Hans Solo</footer>
+                </blockquote>
+            </div>
+
+            <div class="col-lg-4">
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lectus ante, at gravida ante ultricies non. Donec enim elit, malesuada id purus non, mattis consectetur velit. Maecenas mattis dolor non tempor ultricies. Sed semper dui at erat pretium, nec iaculis libero porttitor. Fusce ac ultricies justo.
+                    </p>
+                    <footer>Hans Solo</footer>
+                </blockquote>
+            </div>
+
+        </div> <!-- end row -->
+    </section>
+</div> <!-- end container -->
+
+<!-- call to action -->
+<section>
+    <div class="well">
+        <div class="container text-center">
+            <h3>Subscribe to keep in touch</h3>
+            <p>Enter your name and email</p>
+
+            <form action class="form-inline">
+                <div class="form-group">
+                    <label for="subscription">Subscribe</label>
+                    <input type="text" class="form-control" id="subscription" placeholder="Your name">
+                </div>
+            </form>
+        </div> <!-- end container -->
+
+    </div> <!-- end well -->
+
+</section>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
