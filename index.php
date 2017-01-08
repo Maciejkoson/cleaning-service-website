@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Koson's cleaning services</title>
+    <title>Koson's Cleaning Services</title>
 
     <meta name="description" content="Professional cleaning houses, apartments and offices in London. We clean all kinds of carpets
-       , sofas, beds and couchs.">
+       ,sofas, beds and couchs.">
     <meta name="keywords" content="Cleaning services, cleaning london, cleaning houses,apartments">
     <meta name="author" content="Maciej Koson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- custom css not to use -->
 <!--    <link rel="stylesheet" type="text/css" href="style.css">-->
 
     <!-- Latest compiled and minified CSS -->
@@ -24,13 +25,11 @@
 </head>
 
 <style>
-    body
-    {
-        padding-top: 40px;
-        background-color: lightgrey;
-    }
+
+
+
 </style>
-<body>
+<body data-spy="scroll" data-target="#my-navbar">
 <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
     <div class="container">
         <div class="navbar-header">
@@ -48,9 +47,9 @@
             <a href="" class="btn btn-info navbar-btn navbar-right">Download app</a>
 
             <ul class="nav navbar-nav">
-                <li><a href="#feedback">Feedback</a>
                 <li><a href="#gallery">Gallery</a>
-                <li><a href="#Job">Our job</a>
+                <li><a href="#job">Our job</a>
+                <li><a href="#feedback">Feedback</a>
                 <li><a href="#faq">Faq</a>
                 <li><a href="#contact">Contact us</a>
             </ul>
@@ -253,7 +252,125 @@
     </div> <!-- end well -->
 
 </section> <!-- call to action section end -->
+
+
+<!-- faq -->
+<div class="container">
+    <section>
+        <div class="page-header" id="faq">
+            <h2>FAQ!</h2>
+        </div> <!-- end of header -->
+        <div class="panel-group" id="according">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-title">
+                        <a href="#collapse-1" data-toggle="collapse" data-parent="#according">
+                            Question one
+                        </a>
+                    </div> <!-- end title panel -->
+                    <div id="collapse-1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet lectus ante, at gravida ante ultricies</p>
+                        </div>
+                    </div> <!-- end of panel collapse -->
+                </div>
+            </div>
+        </div> <!-- end of panel group -->
+    </section>
+</div> <!-- end of container -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<!-- Contanct section -->
+<div class="container">
+    <section>
+        <div class="page-header" id="contact">
+            <h2>Any questions? Contact us now!</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <p>Send us a message, or visit us</p>
+
+                <address>
+                    <strong>Koson Cleaning Service Ltd.</strong></br>
+                    86 Nelson Road </br>
+                    SW19 1HX </br>
+                    London </br>
+                    Phone:  <strong>7898777763</strong> </br>
+                    Email: <strong>kosonscleaningservices@office.com<strong>
+                </address>
+            </div>
+
+            <div class="col-lg-8">
+                <form action="" class="form-horizontal">
+                    <div class="form-group">
+                        <label for="user-name" class="col-lg-2 control-label">Name</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="user-message" class="col-lg-2 control-label">Your message</label>
+                        <div class="col-lg-10">
+                            <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10"
+                                      placeholder="Type your message here.."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-lg-10 col-lg-offset-2">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="container text-center">
+                <h3>Subscribe to keep in touch</h3>
+                <p>Enter your name and email</p>
+
+                <form action class="form-inline">
+                    <div class="form-group">
+                        <label for="subscription">Subscribe</label>
+                        <input type="text" class="form-control" id="subscription" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="text" class="form-control" id="email" placeholder="Your email address">
+                    </div>
+                    <button type="submit" class="btn btn-default">Subscribe now!</button>
+                    <hr>
+                </form>
+                <ul class="list-inline">
+                    <li><a href="https://twitter.com/?lang=en" target="_blank">Twitter</a></li>
+                    <li><a href="facebook.co.uk" target="_blank">Facebook</a></li>
+                    <li><a href="google.co.uk" target="_blank">Google</a></li>
+                </ul>
+                <p>&copy;Copyright @2017 </p>
+            </div>
+        </div><!-- end container -->
+    </footer>
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":null,"theme":"dark-floating"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
